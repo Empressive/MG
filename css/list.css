@@ -1,0 +1,55 @@
+.praid{width: 50%;
+    margin: 5em auto;
+    height: 100%; min-width: 800px }
+.praid ul{
+    list-style: none;
+    width: 70%;
+    margin:auto;
+    padding: 0;}
+.praid ul li{margin: .8em auto;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+    border: 1px solid #d2d2d2;
+    display: block;
+    text-align: center;
+    height: 4.5em;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 1.2em; }
+#tanks span, #heals span, #dpss span{
+    display: block;
+    padding: 0.5em 0 0 0;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 1px black;
+    color: #dadada;
+    font-weight: 200;}
+
+#tanks { background: url("/pic/tank5_7.png") no-repeat 10% 30%;
+    background-size: 100% auto;}
+#heals { background: url("/pic/heal_7.png") no-repeat 0 50%;
+    background-size: 110% auto;}
+#dpss { background: url("/pic/dd1_71.png") no-repeat 0 30%;
+    background-size: 100% auto;}
+
+.praid ul ul li{
+    border-radius: 2px;
+    height: 2.5em;
+    margin: .3em auto;
+    cursor: default;
+    width: 90%;
+    display: inline-block;
+    text-align: center;}
+.praid ul ul li:hover{}
+.praid a {display: inline-block;
+        color: black;
+        text-decoration: none;
+        padding: .7em 0;}
+#tank {
+    display: none;
+}
+#heal {
+    display: none;
+}
+#dps {
+    display: none;
+}

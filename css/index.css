@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    min-width: 1000px;}
+header {
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);
+    display: block;
+    padding: 20px 0;
+    overflow: hidden;}
+header ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 -2em;
+    }
+header ul a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;}
+header ul li a {
+    margin: 0.5em;
+    padding: 0.5em 0.7em ;
+    color: #868686;
+    text-transform: uppercase;}
+header ul li {
+    display: inline-block;
+    transition: .5s linear;}
+header ul li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    background: #868686;
+    transition: all 0.5s linear;}
+header ul li a:hover:after{width: 100%;}
+@font-face {
+    font-family: Epo;
+    src: url(../fonts/EpoXY%20histoRy.ttf);}
+header span{
+    margin-right: 2.5em;
+    display: inline-block;
+    font-family: Epo;
+    color: #444444;
+    font-size: 2.2em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+.ppro{
+    width: 50%;
+    margin: 5em auto;
+    height: 100%;
+    min-width: 700px}
+.ppro div{
+    height: 100%;
+    display: block;}
+.pro {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;}
+.pro div span{
+    color:#4b4b4b;
+    font-size: 1.3em;
+    font-weight: 400;}
+.pro div img{
+    width: 170px;
+    height: 170px;
+    margin: .5em auto;
+    border: 1px solid #363636;
+    border-radius: 100%;}
+.news{
+    margin: 5em 0;
+    width: 100%;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+    border: 1px solid #dedede;}
+.news:after, .pnews:after{
+    content:'';
+    display:table;
+    clear:both;}
+.news span, .newslist span{
+    display: inline-block;
+    float: left;
+    margin: 1em 2em .5em 1em;
+    color: #4b4b4b;}
+.news .tit, .newslist .tit{
+    width: 70%;
+    font-size: 1.4em;
+    font-weight: 500;}
+.news .dat , .news a, .newslist .dat{
+    font-size: .9em;
+    float: right;
+    color: #868686;}
+.news .txt, .pnews .newslist .txt{
+    display: inline-block;
+    float: left;
+    width: 95%; margin: 0 0 0 .8em}
+.news a{margin: 1.2em 2em 1em .5em;}
+.pnews, .pstr{
+    width: 50%;
+    margin: 5em auto;
+    height: 100%;
+    min-width: 700px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+    border: 1px solid #dedede;}
+
+.pstr{
+    text-align: center;
+    padding: 0 0 0 2em;}
+
+.pnews .alltit, .pstr .alltit {
+    display: block;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+    margin: .8em;
+    color: #4b4b4b;}
+.pnews .newslist{
+    width: 96%;
+    display: inline-block;
+    padding: 1em 1em 1.5em;
+    height: auto;}
+
+.pstr .blstr {
+    cursor: pointer;
+    display: inline-block;
+    width: 15%;
+    height: 4em;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    margin: .5em;
+    padding: 1em;
+    background: url("../pic/twitchtv.png") no-repeat 50% 98%;
+    background-size: 60% auto;
+}
+.pstr .blstr span{
+    display: block;
+    padding: .3em 0;
+    font-family: Epo;
+    color: #444444;
+    font-size: 2em;
+}

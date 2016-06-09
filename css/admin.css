@@ -1,0 +1,64 @@
+body, html {
+    background: url("../pic/14.jpg") no-repeat;
+    height: 100%;
+    margin: 0;
+    font-weight: 100;
+    min-width: 1000px;}
+#bar {
+    position: absolute;
+    left: 0;
+    padding: 13em 0 ;
+    background: rgba(47, 47, 47, 0.5);
+    width: 13em;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;}
+#bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+#bar ul li:first-child{border-top: 1px solid #5fc92f;}
+#bar ul li:nth-child(3){
+    border-top: 1px solid #5fc92f;
+    margin: 10em 0 0 0;}
+#bar ul li a {
+    padding: .8em 1.3em;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: rgba(222, 222, 222, 0.73);
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #5fc92f;
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;}
+#bar ul li:hover a {
+    background: #c25dc9;}
+@font-face {
+    font-family: Epo;
+    src: url(../fonts/EpoXY%20histoRy.ttf);}
+#bar span{
+    display: block;
+    position: absolute;
+    left: .5em;
+    top: 1em;
+    font-family: Epo;
+    color: rgba(222, 222, 222, 0.6);
+    font-size: 2.2em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.err{
+color: rgba(222, 222, 222, 0.73);
+text-align: center;
+font-size: 1.1em;
+margin: 0 auto;
+position: absolute;
+left: 40%;
+top: 10em;
+background: rgba(93, 93, 93, 0.8);
+width: 20em;
+height: 15em;
+border-radius: 4px;
+box-shadow: -2px -2px 15px rgba(0,0,0,.3);}

@@ -1,0 +1,73 @@
+.prec{
+    width: 50%;
+    text-align: center;
+    margin: 5em auto;
+    height: 100%; min-width: 800px; }
+.prec table {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+    border: 1px solid #dedede;}
+.prec table th {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 12px 10px;
+    color: #4b4b4b;}
+.prec table tr:nth-child(2) {
+    border-bottom: 1px solid #cecece;
+    border-top: 1px solid #cecece;}
+.prec table td {
+    padding: 10px;}
+.prec table img{width: 2.8em;border-radius: 2px;}
+.prec table .nneed, .edrec table .nneed{
+    opacity: .4;
+}
+.prec table tr:nth-child(odd) img,
+.prec table tr:nth-child(4) img {width: 2.2em;}
+
+.pprof{
+    text-align: center;
+    width: 50em;
+    margin: 5em auto;
+    height: 80%;
+    border: 2px solid black;}
+.pprof:after{
+    content:'';
+    display:table;
+    clear:both;}
+.pprof .ava {
+    display: block;
+    float: left;
+    width: 15em;
+    height: 20em;}
+.pprof .info{
+    display: block;
+    float: left;
+    width: 35em;
+    height: 30em;
+    }
+.pprof .info table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0 auto;
+
+    max-height: inherit;
+    width: 90%;
+}
+.pprof .info table th{
+    height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    }
+.pprof .info table td {
+    padding: 1em .5em;
+}
+.pprof .info table td:first-child{
+    color: #404040;
+    width: 20%;
+    font-size: 1em;
+}
+.pprof .info table td:last-child{max-width: 75%}
